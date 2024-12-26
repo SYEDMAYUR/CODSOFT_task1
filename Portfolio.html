@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> MyPortfolio</title>
+  <link rel="stylesheet" href="portfolio.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <nav class="navbar">
+      <div class="logo">My Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h1>Hi, I'm<span class="highlight"></span> Syed Mayur Haque</h1>
+      <p>A passionate web developer focused on crafting great web experiences.</p>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <p>I am a B.Tech Computer Science Undergraduate pursuing my degree from  <a href="https://ustm.ac.in/"><strong class="red-text">USTM</strong></a>.. I have experience in HTML, CSS, JavaScript.</p>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume">
+    <h2>My Resume</h2>
+    <p>Check out my skills, education, and experience in my resume.</p>
+    <a href="your-resume.pdf" download="My_Resume" class="download-button">Download Resume</a>
+</section>
+
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <div class="skill">
+      <label>HTML</label>
+      <div class="bar">
+        <div class="fill" style="width: 56%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>CSS</label>
+      <div class="bar">
+        <div class="fill" style="width: 32%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>JavaScript</label>
+      <div class="bar">
+        <div class="fill" style="width: 5%;"></div>
+      </div>
+    </div>
+    <div class="skill">
+      <label>React</label>
+      <div class="bar">
+        <div class="fill" style="width: 2%;"></div>
+      </div>
+    </div>
+  </section>
+<!--Contact Section-->
+  <section id="contact" class="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Name" required>
+      <input type="email" placeholder="Email" required>
+      <textarea placeholder="Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <div class="social-links">
+      <a href="#"><i class="fab fa-facebook"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-linkedin"></i></a>
+      <a href="#"><i class="fab fa-github"></i></a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Mayur Haque. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
